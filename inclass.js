@@ -1,7 +1,8 @@
 const menu = document.getElementsByClassName('menu');
 const list = menu.getElementsByTagName('li');
 
-const name = document.getElementById('name');
+const name = document.getElementById('nama');
 //name = puspi
 
-docum
+document.getElementById('nama').innerHTML = 'hello' + nama.innerHTML;
+//welcome.innerHTML = 'hello' + name.innerHTML;
