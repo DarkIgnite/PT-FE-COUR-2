@@ -6,3 +6,7 @@ const name = document.getElementById('nama');
 
 document.getElementById('nama').innerHTML = 'hello' + nama.innerHTML;
 //welcome.innerHTML = 'hello' + name.innerHTML;
+
+// Nyimpan
+
+let nama = document.getElementById('nama')
