@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Card</title>
+    <style>
+      .card {
+        width: 250px;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Card -->
+      <div class="card">
+        <h2>Card</h2>
+        <p id="hasil">Belum ada input</p>
+      </div>
+
+      <!-- Tombol tambahan -->
+      <button onclick="gantiWarna()">Ganti Warna</button>
+      <br /><br /><br />
+
+      <!-- Form Input + Submit -->
+      <div class="form-section">
+        <form onsubmit="kirimData(event)">
+          <input id="inputNama" type="text" placeholder="Masukkan nama" />
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="strukturcard.js"></script>
+</html>
